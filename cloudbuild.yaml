@@ -24,7 +24,6 @@ steps:
         echo "*************************************************"
         terraform init || exit 1
         cd ../../
-      done
       fi 
 # [START tf-plan]
 - id: 'tf plan'
@@ -43,7 +42,6 @@ steps:
         echo "*************************************************"
         terraform init || exit 1
         cd ../../
-      done
       fi 
 # [END tf-plan]
 
@@ -64,6 +62,5 @@ steps:
         echo "*************************************************"
         terraform init || exit 1
         cd ../../
-      done
       fi 
 # [END tf-apply]      
