@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "bharath-new-tfstate"
+    bucket = "bh-tf-backend-states"
     prefix = "env/dev"
   }
 }
